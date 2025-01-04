@@ -555,6 +555,7 @@ different part of the Jujutsu status (e.g., working copy status,
 file changes, commit log).")
 (defvar-local jujutsu-status-previous-state nil)
 
+;;;###autoload
 (defun jujutsu-status ()
   "Display the status of the current Jujutsu repository.
 
