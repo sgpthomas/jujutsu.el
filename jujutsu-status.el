@@ -623,7 +623,7 @@ This provides a comprehensive overview of your repository's current state."
                           #'jujutsu-status--render-node)
     (setq jujutsu-status-previous-state new-state)))
 
-(defalias 'jujutsu-status-render (symbol-function 'jujutsu-status-render-from-scratch))
+(defalias 'jujutsu-status-render (symbol-function 'jujutsu-status-render--from-scratch))
 
 (defun jujutsu-status-update-state (updater)
   "Update the application state using UPDATER function."

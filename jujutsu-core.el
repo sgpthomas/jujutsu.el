@@ -161,7 +161,7 @@ If the key contains `:list', the value is split based on `;'."
  (jujutsu-core--parse-key-value "empty$bool false")
  ;; => #s(hash-table ... (:empty$bool nil))
 
- ,)
+ )
 
 (defun jujutsu-core--parse-and-group-file-changes (file-changes)
   "Parse and group FILE-CHANGES by their change type into a hash-table."
